@@ -6,3 +6,54 @@
 }
 
 /* GENERAL */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+.background-header{
+    background-color: #FF6900;
+    padding: 20px 0;
+}
+
+.my-row{
+    display: flex;
+}
+
+.my-row *{
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+}
+
+.col-1, .col-3{
+    width: calc(100% / 3);
+}
+
+.col-2{
+        width: calc((100% / 3) * 2);
+}
+
+.col-3{
+    text-align: right;
+}
+
+.col-2 *{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
+.col-1 *, .col-3 *{
+    padding-left: 5px;
+    vertical-align: middle;
+}
