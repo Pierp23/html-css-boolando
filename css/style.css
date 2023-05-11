@@ -29,7 +29,7 @@ a{
     display: flex;
 }
 
-.my-row *{
+header .my-row *{
     font-weight: bold;
     color: white;
     font-size: 1em;
@@ -125,4 +125,43 @@ a{
 .middle{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+
+/* FOOTER */
+.background-footer{
+    background-color: black;
+    margin-top: 50px;
+}
+
+.background-footer .container .my-row{
+    padding: 30px 0;
+}
+
+.col-footer-1{
+    width: calc(100% / 2);
+}
+
+.col-footer-2{
+    width: calc(100% / 2);
+    text-align: right;
+}
+
+footer .my-row *{
+    color: white;
+}
+
+.col-footer-1 .info *{
+    padding-right: 5px;
+}
+
+
+.col-footer-2 .social-icons *{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+footer .my-row h3{
+    padding-bottom: 10px;
 }
