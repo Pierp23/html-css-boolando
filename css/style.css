@@ -57,3 +57,72 @@ a{
     padding-left: 5px;
     vertical-align: middle;
 }
+
+
+/* MAIN */
+
+.my-rows{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.col{
+    width: calc(100% / 3 - 20px);
+    position: relative;
+    margin-top: 30px;
+}
+
+.col img{
+    width: 100%;
+}
+
+.col *{
+    color: black;
+}
+
+.col .description .price{
+    color: red;
+}
+
+.col .description .price,
+.col .description .item{
+    font-weight: bold;
+}
+
+.col .price span{
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.col .heart{
+    background-color: white;
+    font-size: 2em;
+    padding: 2px 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.col .icons{
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+}
+
+.col .icons *{
+    color: white;
+    padding: 2px 7px;
+    margin-right: 3px;
+    background-color: green;
+}
+
+.col .icons .discount{
+    background-color: red;
+}
+
+.middle{
+    margin-left: 10px;
+    margin-right: 10px;
+}
