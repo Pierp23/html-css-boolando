@@ -91,7 +91,6 @@ header .my-row *{
     display: none;
 }
 
-
 .col *{
     color: black;
 }
@@ -117,6 +116,10 @@ header .my-row *{
     position: absolute;
     right: 0;
     top: 10px;
+}
+
+.col .heart:hover{
+    color: red;
 }
 
 .col .icons{
