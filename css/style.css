@@ -76,7 +76,21 @@ header .my-row *{
 
 .col img{
     width: 100%;
+    display: block;
 }
+
+.col .img-item .img-alternative{
+    display: none;
+}
+
+.col .img-item:hover .img-alternative{
+    display: block;
+}
+
+.col .img-item:hover .img-first{
+    display: none;
+}
+
 
 .col *{
     color: black;
