@@ -23,6 +23,9 @@ a{
 .background-header{
     background-color: #FF6900;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .my-row{
@@ -61,11 +64,14 @@ header .my-row *{
 
 /* MAIN */
 
+main .container{
+    padding-top: 50px;
+}
+
 .my-rows{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .col{
