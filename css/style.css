@@ -24,6 +24,8 @@ a{
     background-color: #FF6900;
     padding: 20px 0;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 1;
 }
@@ -65,7 +67,7 @@ header .my-row *{
 /* MAIN */
 
 main .container{
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .my-rows{
